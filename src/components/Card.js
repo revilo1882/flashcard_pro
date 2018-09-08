@@ -10,7 +10,7 @@ class Card extends Component {
     const { prompt, answer } = this.props.card;
 
     return (
-      <div className='card' onClick={() => this.setState({ reveal: !this.state.reveal })}>
+      <div className='card' onClick={() => this.setState({ reveal: true })}>
         <div className='card-prompt'>
           <h4>{prompt}</h4>
         </div>
